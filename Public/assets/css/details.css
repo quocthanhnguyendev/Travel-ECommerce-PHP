@@ -1,0 +1,162 @@
+/* 
+COLORS - SAND: #CCC5B9, DARK BROWN: #252422, BLUE: #577590
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.wrapper {
+  padding: 100px 15rem;
+}
+
+.product-left {
+  padding: 2rem 5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  color: #777;
+  justify-content: space-evenly;
+}
+
+.product-right {
+  background: #fff;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 5rem;
+}
+
+.product-right img {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: #22b3c1;
+}
+/* #afafaf */
+/* Price */
+
+.header h2 {
+  margin: 0rem 0 2rem 0;
+  font-weight: 300;
+  color: #22b3c1;
+}
+
+/* Product Description */
+
+.product-main div {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.focus {
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0.9rem 0;
+  border-bottom: 0.2rem solid rgba(250, 250, 250, 0.3);
+}
+
+.focus span:last-child {
+  margin: 0 0 0 1rem;
+  width: 100%;
+}
+
+.focus span:first-child {
+  border-bottom: 0.2rem solid #fff;
+  padding: 0 0 0.9rem 0;
+}
+
+/* Choose color / quantity  */
+
+.btns-group {
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+/* Total Price  */
+
+.product-total {
+  margin: 0 0 2rem 0;
+}
+
+.product-total p {
+  font-weight: 700;
+  font-size: 3rem;
+  opacity: 0.5;
+  color: #22b3c1;
+}
+
+.product-total h3 {
+  margin: 0 0 1rem 0;
+  color: #2e282a;
+}
+
+/* Add to cart button  */
+
+.product-add {
+  border: 1px solid #22b3c1;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  transition: all 0.5s ease-out;
+  color: #22b3c1;
+}
+
+.product-add:hover {
+  background-color: #22b3c1;
+  color: #fff;
+}
+
+.product-btns a {
+  text-decoration: none;
+  color: #22b3c1;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs {
+  margin: 30px 0;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #22b3c1;
+  border-color: #22b3c1;
+}
+
+.people-number {
+  width: 100px;
+  line-height: 15px;
+  border: none;
+  outline: unset;
+  text-align: center;
+}
+
+.people-number:focus {
+  outline: solid 2px #22b3c1;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 70px 0;
+  }
+  .product-btns {
+    padding: 10px;
+  }
+}

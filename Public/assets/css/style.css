@@ -1,0 +1,6 @@
+.text-overflow {
+  word-wrap: break-word;
+  height: 145px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
